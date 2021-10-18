@@ -1,0 +1,89 @@
+.mobile-menu-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+    display: none;
+}
+
+.mobile-menu-wrap {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 280px;
+    height: 100%;
+    background: #fff;
+    z-index: 9999;
+    visibility: hidden;
+    transform: translateX(-100%);
+}
+
+.mobile-menu-wrap.animate {
+    transition: all 0.35s ease;
+}
+
+.mobile-menu-wrap .logo {
+    border-bottom: 1px #ddd solid;
+    padding: 10px;
+    text-align: center;
+}
+
+.mobile-menu-wrap .logo img {
+    height: 50px;
+    width: auto;
+}
+
+.mobile-menu-wrap .menu {
+    background-color: #fff;
+    height: calc(100vh - 111px);
+    overflow: auto;
+}
+
+.mobile-menu-wrap .mfooter {
+    background-color: #fff;
+    height: 30px;
+    padding: 10px;
+    text-align: center;
+    color: #777;
+}
+
+.mobile-menu-toggle-btn {
+    cursor: pointer;
+    background-color: transparent;
+    width: 40px;
+    height: 35px;
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    text-align: center;
+    line-height: 36px;
+    font-size: 22px;
+    border-radius: 3px;
+    display: none;
+	z-index: 1
+}
+
+.mobile-menu-toggle-btn:hover {
+    background-color: #86681c;
+}
+
+.mobile-menu-toggle-btn i {
+    color: #e7c059;
+}
+@media (max-width: 767.98px) {
+    .mobile-menu-toggle-btn {
+        display: block;
+    }
+  
+    .open-menu .mobile-menu-bg {
+        display: block;
+    }
+
+    .open-menu .mobile-menu-wrap {
+        visibility: visible;
+        transform: translateX(0);
+    }
+}

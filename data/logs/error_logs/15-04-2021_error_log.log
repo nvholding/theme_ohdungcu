@@ -1,0 +1,10 @@
+[Thu, 15 Apr 2021 22:27:58 +0700] [localhost] [::1] [Error(1): Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'discount_member_amount' in 'field list'' in E:\xampp\htdocs\dungcu\vendor\vinades\nukeviet\Core\Database.php:495
+Stack trace:
+#0 E:\xampp\htdocs\dungcu\vendor\vinades\nukeviet\Core\Database.php(495): PDO->query('SELECT listcati...')
+#1 E:\xampp\htdocs\dungcu\modules\shops\site.functions.php(146): NukeViet\Core\Database->query('SELECT listcati...')
+#2 E:\xampp\htdocs\dungcu\modules\shops\theme.php(655): nv_get_price(11, 'VND')
+#3 [internal function]: view_home_all(Array, false, '', 0, Array)
+#4 E:\xampp\htdocs\dungcu\modules\shops\funcs\main.php(360): call_user_func('view_home_all', Array, false, '', 0, Array)
+#5 E:\xampp\htdocs\dungcu\index.php(343): require('E:\\xampp\\htdocs...')
+#6 {main}
+  thrown] [FILE: /vendor/vinades/nukeviet/Core/Database.php] [LINE: 495]

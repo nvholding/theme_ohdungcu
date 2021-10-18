@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plan>
+  <id>1</id>
+  <lang></lang>
+  <title>Home</title>
+  <form>sequential</form>
+  <width>800</width>
+  <height>300</height>
+  <banners>
+    <banners_item>
+      <id>4</id>
+      <title>1</title>
+      <clid>1</clid>
+      <file_name>slider_1.jpg</file_name>
+      <imageforswf></imageforswf>
+      <file_ext>jpg</file_ext>
+      <file_mime>image/jpeg</file_mime>
+      <file_width>960</file_width>
+      <file_height>479</file_height>
+      <file_alt></file_alt>
+      <file_click></file_click>
+      <target>_blank</target>
+      <bannerhtml></bannerhtml>
+      <publ_time>1582213916</publ_time>
+      <exp_time>0</exp_time>
+    </banners_item>
+    <banners_item>
+      <id>5</id>
+      <title>2</title>
+      <clid>1</clid>
+      <file_name>slider_2.jpg</file_name>
+      <imageforswf></imageforswf>
+      <file_ext>jpg</file_ext>
+      <file_mime>image/jpeg</file_mime>
+      <file_width>960</file_width>
+      <file_height>479</file_height>
+      <file_alt></file_alt>
+      <file_click></file_click>
+      <target>_blank</target>
+      <bannerhtml></bannerhtml>
+      <publ_time>1582213938</publ_time>
+      <exp_time>0</exp_time>
+    </banners_item>
+  </banners>
+</plan>
